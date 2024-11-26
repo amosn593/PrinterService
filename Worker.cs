@@ -68,7 +68,7 @@ public class Worker : BackgroundService
                     {
                         doc.LoadFromFile(file.FullName);
 
-                        //Specify printer name
+                        ////Specify printer name
                         //doc.PrintSettings.PrinterName = "POS80";
 
                         //Silent printing
